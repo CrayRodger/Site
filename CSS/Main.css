@@ -1,0 +1,68 @@
+body {
+    background-color: #fffce8;
+    width: 80% ;
+    margin: auto;
+    min-width: 1000px;
+}
+
+h1{
+    color: cadetblue;
+    font-size: large;
+}
+
+.header  {
+    height: 200px;
+    background: url("../Images/Header_Underground.png")  100% 100% no-repeat;
+    background-size: cover;
+    margin: auto;
+
+  }
+
+.header .telphones{
+    color: aliceblue;
+    margin-left: 10px;
+    font-size: large;
+}
+
+.header .telphones .logotip{
+    float:left; /* Выравнивание по левому краю */
+    margin: 7px 7px 7px 0; /* Отступы вокруг картинки */
+}
+
+.header .menu {
+    margin: 100px;
+
+}
+
+.header .menu li {
+    list-style-type: none;
+    display: inline;
+    margin: 0; /*убираем верхнее и нижнее поле, равное 1em*/
+    padding-left: 0;
+    margin-right: 30px;
+
+}
+
+.header .menu li a {
+    color : aliceblue;
+    text-decoration: none;
+    font-size: larger;
+}
+
+.header .menu a:hover{
+    font-weight: bold;
+    color: chartreuse;
+}
+
+.Main_products .pic_border_a {
+    border: 2px solid #55c5e9; /* Рамка вокруг фотографии */
+    padding: 15px; /* Расстояние от картинки до рамки */
+    background: #666; /* Цвет фона */
+    margin-right: 21px; /* Отступ справа */
+    width: 250px;
+    height: 200px;
+    }
+
+.helpBox1 {
+    height: 20px;
+}

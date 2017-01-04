@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Main page</title>
+    <link rel="stylesheet"  type="text/css" href="CSS/Main.css">
+    <script src="Javascripts/Description_Box.js">
+    </script>
+</head>
+
+<body>
+                      <!-- Header -->
+<div class="header">
+    <div class = telphones>
+        <img src = "Images/logo_1.png"
+             alt = "Logo"
+             title = "Logo"
+             width="200" px
+             class="logotip"
+        />
+Телефон Украина: +380(50)692-08-45
+        <br>
+Телефон Россия: +7(968)624-77-84
+        <br>
+E-mail: 2807@ukr.net
+    </div>
+
+    <ul class="menu">
+         <li> <a href = "index.html" target="_self">
+            Главная   </a>  </li>
+        <li> <a href = "Catalog.html" target="_self" >
+            Каталог  </a>  </li>
+        <li> <a href = "Write.html" target="_self" >
+            Написать нам  </a>  </li>
+        <li> <a href = "Contacts.html" target="_self" >
+            Контакты  </a>  </li>
+    </ul>
+</div>
+                      <!-- Header -->
+
+<h1>О нас:</h1>
+<p>
+    Наша компания занимается производством и продажей большлго ассортимента
+    электротехнической продукции. Наши приимущества перед конкурентами - это
+    <strong>цена</strong> и <strong>гибкость</strong>.
+    Мы работаем уже более 10 лет и поставляем оборудование  на рынки России, Украины и Казахстана.
+</p>
+
+<br>
+
+<h1>Наиболее востребованная продукция:</h1>
+
+
+<div  class="Main_products" >
+
+    <a href="Products/DPMG_2.html" target="_blank">
+    <img src="Images/DPMG_2.png"
+
+    class = "pic_border_a"
+    onMouseOver="helpBox('Датчик ДПМГ-2-100',
+    'Датчик магнитогерконовый в искробезопасном исполнении.')"
+    onMouseOut="helpBox()">
+    </a>
+
+    <a href="Products/DM_3.html" target="_blank">
+    <img src="Images/dm_3.png"
+
+    class = "pic_border_a"
+    onMouseOver="helpBox('Датчик ДM-3',
+    'Датчик магнитоиндукционныйтипа ДМ-3.')"
+    onMouseOut="helpBox()">
+    </a>
+
+    <a href="Products/MPP.html" target="_blank">
+        <img src="Images/MPP.png"
+
+             class = "pic_border_a"
+             onMouseOver="helpBox('Магнит МПП',
+              'Магнит МПП входит в датчики контроля положения унифицированные ДКПУ-12,' +
+              ' ДКПУ-22.')"
+             onMouseOut="helpBox()">
+    </a>
+
+    <a href="Products/Preemoperedat.html" target="_blank">
+        <img src="Images/Dneper_01.png"
+
+             class = "pic_border_a"
+             onMouseOver="helpBox('Приёмопередатчик «ДНЕПР 01» ',
+              'Приёмопередатчик «ДНЕПР 01» для шахтного электровоза.')"
+             onMouseOut="helpBox()">
+    </a>
+
+
+
+</div>
+
+<div id="help1" class="helpBox1"  style="display:none;position:absolute;">
+    <p id="helpTitle1" class="helpTitle1">
+        Title</p>
+    <p id="helpText1" class="helpText1">
+
+    </p>
+</div>
+
+
+
+</body>
+</html>
